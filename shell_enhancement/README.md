@@ -8,15 +8,14 @@
 
 ### 1、如何在 SylixOS 上注册一个shell命令
 
-- 建一个内核模块；
-
+- 创建一个内核模块；
 - 在内核模块中注册一个shell命令；
-
 - 编译内核模块，上传到 sylixos 设备；
-
 - 加载内核模块，执行命令。
 
-  
+详细代码示例，请参见 [traffic_stat_cmd_demo示例程序](https://github.com/acoinfo/sylixos_oscomp_2021/tree/master/demo/traffic_stat_cmd_demo)
+
+
 
 ### 2、SylixOS Shell 命令帮助信息
 
