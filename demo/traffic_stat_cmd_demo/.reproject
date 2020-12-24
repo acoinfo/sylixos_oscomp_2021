@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+<BaseSetting Profile="standard" ProjectType="SylixOSKoProject" RealEvoVer="3.9.11 Ultimate"/>
+<OutputSetting>
+<OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+<OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+<OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+</OutputSetting>
+<BuildSetting CoustomCfgMakefile="false" NeedReBuild="false" NotScanSourceFile="false"/>
+<DeviceSetting DevName="192.168.7.32" WorkDir="/lib/modules/traffic_stat_cmd_demo"/>
+<UploadPath>
+<PairItem key="$(WORKSPACE_traffic_stat_cmd_demo)/$(Output)/strip/traffic_stat_cmd_demo.ko" value="/lib/modules/traffic_stat_cmd_demo.ko"/>
+</UploadPath>
+<ExtDevNames/>
+</SylixOSSetting>
