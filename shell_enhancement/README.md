@@ -42,7 +42,7 @@
 
 陈洪邦
 
-* github https://github.com/acoinfo/sylixos_oscomp_2021/shell_enhancement
+* github https://github.com/acoinfo/sylixos_oscomp_2021/tree/master/shell_enhancement
 
 * email chenhongbang@acoinfo.com
 
@@ -63,9 +63,9 @@
 
 ### 文档
 
-[SylixOS shell增强开发指导文档](https://github.com/acoinfo/sylixos_oscomp_2021/shell_enhancement)
+[SylixOS shell增强开发指导文档](https://github.com/acoinfo/sylixos_oscomp_2021/tree/master/shell_enhancement)
 
-[SylixOS shell用户手册](https://github.com/acoinfo/sylixos_oscomp_2021/shell_enhancement)
+[SylixOS shell用户手册](https://github.com/acoinfo/sylixos_oscomp_2021/tree/master/shell_enhancement)
 
 ### License
 

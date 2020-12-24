@@ -34,7 +34,7 @@
 
 蒋太金
 
-* github https://github.com/acoinfo/sylixos_oscomp_2021/kernel_event_monitor_system
+* github https://github.com/acoinfo/sylixos_oscomp_2021/tree/master/kernel_event_monitor_system
 
 * email jiangtaijin@acoinfo.com
 
@@ -54,7 +54,7 @@
 
 ### 文档
 
-[SylixOS 内核事件监控指导文档](https://github.com/acoinfo/sylixos_oscomp_2021/kernel_event_monitor_system)
+[SylixOS 内核事件监控指导文档](https://github.com/acoinfo/sylixos_oscomp_2021/tree/master/kernel_event_monitor_system)
 
 ### License
 
