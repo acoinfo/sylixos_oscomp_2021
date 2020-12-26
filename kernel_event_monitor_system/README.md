@@ -10,7 +10,7 @@
 ## SylixOS内核事件监控器框架
 SylixOS内核事件收集器在系统内开辟一个环形缓冲去用于保存事件信息，当系统发生内核事件时，将事件记录到缓冲区。SylixOS内核事件收集器开启一个事件发送线程，可定期将收集的内核事件通过网络发送到事件服务器或记录成文件。
 
-![SylixOS内核事件收集监控器](./picture/SylixOS-monitor-framwork.png)
+![SylixOS内核事件收集监控器](picture/SylixOS-monitor-framwork.png)
 
 当前SylixOS内核事件收集器实现了一些基本内核事件的收集，包括但不限于：
 1. 中断信息（包括中断产生时间、中断号）
@@ -46,7 +46,7 @@ monitor {[start {file | ip:port}] | [stop] | [filter [event allow-mask]] | [pid 
 ```
 在启动事件监控器之前，需在pc端启动事件服务器，服务器需要自己实现。为方便协议调试，本文提供一个简单的demo程序，该demo以列表方式展现事件监控器上报的事件信息。事件服务器demo界面如下：  
 
-![event-server-demo](./picture/event-server-demo.png)
+![event-server-demo](picture/event-server-demo.png)
 
 启动事件监控器，命令如下：
 ```shell
@@ -61,7 +61,7 @@ monitor start.
 3为事件类型ID，ffffffffffffffff为事件掩码，每个事件类型最多可包含64个子事件，每个子事件在事件掩码中占一位，如果其掩码位为1则记录该事件，为0则不记录。事件类型ID和子事件掩码未的值需参考事件收集器源码中的定义，本文后续会详细介绍，这里先行略过。  
 
 一旦事件过滤器被打开，则在事件服务器demo上会以列表方式显示当前已经记录的事件，如下：  
-![事件列表](./picture/event-list.png)
+![事件列表](picture/event-list.png)
 
 事件记录完成，则通过shell关闭事件监控器  
 ```shell
