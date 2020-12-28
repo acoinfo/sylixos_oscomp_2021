@@ -92,6 +92,7 @@ SylixOS是一个开源操作系统，其源码可以通过网址 http://git.syli
 
 此外，事件监控器代码还涉及“monitor”命令的实现代码，其位于`\libsylixos\SylixOS\shell\ttinyShell\ttinyShellSysCmd.c`  
 如果要新增某个事件记录点，则需要在内核的相关代码位置调用monitor_event.h声明的事件记录接口。比如，要记录线程切换事件，则在"libsylixos/SylixOS/kernel/core/_Sched.c"文件的_SchedSwp函数中加入了如下代码：
+
 ```
     if (bIsIntSwitch) {
         MONITOR_EVT_LONG2(MONITOR_EVENT_ID_SCHED, MONITOR_EVENT_SCHED_INT, 
@@ -104,11 +105,11 @@ SylixOS是一个开源操作系统，其源码可以通过网址 http://git.syli
 ## 事件数据格式以及通信协议说明
 事件监控器与事件服务器的通信协议比较简单，经过简单的握手后开始上传事件数据，具体实现在monitorFileUpload.c中。
 事件数据是一个有所有被记录事件组成的列表，其中每个事件结构如下：  
+
 |名称|类型|说明|
 |----|----|----|
 |长度|SHORT|整个事件的数据长度|
 |事件ID|UINT|主事件ID|
-|子事件ID|UINT|子事件ID|
 |子事件ID|UINT|子事件ID|
 |时间|UINT64|事件发生时间|
 |线程ID|ULONG|子事件ID|
