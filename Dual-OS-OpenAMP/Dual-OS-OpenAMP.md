@@ -1,13 +1,16 @@
-# proj2x-Dual-OS-With-OpenAMP  
+# proj2-Dual-OS-With-OpenAMP  
 ### 项目描述
 
 SylixOS 是支持 SMP 调度的大型实时操作系统，支持带MMU的高性能SMP处理器，适用于高性能、复杂业务的应用场景。  
+
 MS-RTOS（Micro Safe RTOS）是一款面向未来物联网需求的新一代小型物联网操作系统，其最大的特点是开创性地在没有 MMU 和资源受限的 MCU（如Cortex-M3）上也能支持多进程与动态装载技术，使得内核有着非常高的安全性。
 
 STM32MP157 微处理器基于灵活的双 Arm® Cortex®-A7 内核（运行频率为 650 MHz）和 Cortex®-M4（运行频率为 209 MHz）架构。
 
-我们的目标是在一个异构多核的处理器上同时运行两个异构操作系统（SylixOS和MS-RTOS），并通过 OpenAMP 实现系统间通信。  
+我们的目标是在一个异构多核的处理器上同时运行两个异构操作系统（SylixOS和MS-RTOS），并通过 OpenAMP实现系统间通信。 
+
 在STM32MP157的Cortex-A7双核上支持 SylixOS操作系统。  
+
 在STM32MP157的Cortex-M4核心上支持 MS-RTOS操作系统。
 
 ### 所属赛道
@@ -41,6 +44,7 @@ STM32MP157 微处理器基于灵活的双 Arm® Cortex®-A7 内核（运行频�
 ### 文档
 
 [SylixOS 开发适配指导文档](https://github.com/acoinfo/sylixos_oscomp_2021/tree/master/shell_enhancement)  
+
 [MS-RTOS 开发指导文档](http://docs.edgeros.com/ms-rtos/IOTPI/QUICK_START.html?from=singlemessage)
 
 ### 参考代码

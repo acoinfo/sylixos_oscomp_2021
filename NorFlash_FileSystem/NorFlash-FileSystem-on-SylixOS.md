@@ -1,8 +1,9 @@
-# NorFlash-FileSystem-on-SylixOS
+# proj3-NorFlash-FileSystem-on-SylixOS
 
 ### 项目描述
 
-​SylixOS 是支持 SMP 调度的原创大型硬实时操作系统，SylixOS目前支持丰富的文件系统访问接口，并支持ramFs, romFs, fatfs, yaffs2, tpsFs等多种文件系统。  
+SylixOS 是支持 SMP 调度的原创大型硬实时操作系统，SylixOS目前支持丰富的文件系统访问接口，支持RAMFS、ROMFS, FatFS,  YAFFS2, TPSFS等多种文件系统。  
+
 本项目要求学生在SylixOS系统上实现一个能够运行在NorFlash上的文件系统，实现文件系统基本功能，更进一步需考虑各方面细节优化。本项目能够帮助学生理解文件系统结构，掌握操作系统存储性能优化方法。
 
 ### SylixOS源码 
@@ -23,7 +24,7 @@
 
 蒋太金
 
-* github
+* github [tigejiang](https://github.com/tigejiang)
 
 * email jiangtaijin@acoinfo.com
 

@@ -1,4 +1,4 @@
-# proj2x-SylixOS-porting-to-XuanTie-C906
+# proj5-SylixOS-porting-to-XuanTie-C906
 ### 项目描述
 
 SylixOS 全面支持 ARM/ PowerPC / MIPS / x86 / SPARC / DSP / RISC-V / C-SKY， 同时支持主流半导体厂商的大量板卡和设备，部分支持列表可参考[翼辉官网](https://www.acoinfo.com/html/edu_con/cpu.html)。
@@ -20,7 +20,7 @@ SylixOS最小系统包括系统时钟、系统中断和串口通信功能，基�
 
 ### 项目导师
 
-葛文斌
+葛文彬
 
 * github [databuser](https://github.com/databuser)
 * email  gewenbin@acoinfo.com
@@ -63,4 +63,4 @@ SylixOS最小系统包括系统时钟、系统中断和串口通信功能，基�
 
 * 完成以太网驱动程序，支持TCP/IP网络通信功能
 * 完成 SD 卡的存储功能，支持文件系统
-   
+  
