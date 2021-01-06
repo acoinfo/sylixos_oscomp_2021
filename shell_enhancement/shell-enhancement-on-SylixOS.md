@@ -1,14 +1,12 @@
-# proj1-shell-enhancement-on-SylixOS
+# proj12-shell-enhancement-on-SylixOS
 
 ### 项目描述
 
-​       SylixOS 是中国自主可控的大型实时操作系统，于二零零六年开始研发，经过多年的持续开发与改进，SylixOS 已经成为一个功能全面，稳定可靠，易于开发的实时系统平台。
+SylixOS 是中国人完全自主设计开发，内核开源的操作系统。目前功能已非常完备，在国防、航空航天、电力、轨道交通、 工业自动化 等领域有着广泛的应用。
 
-​       SylixOS 是中国人完全自主设计开发，内核开源的操作系统。目前功能已非常完备，在国防、航空航天、电力、轨道交通、 工业自动化 等领域有着广泛的应用。
+SylixOS 已拥有一套命令行的实现机制，拥有丰富且实用的 shell 命令行，并具备简单的 shell 脚本能力。
 
-​       SylixOS 已拥有一套命令行的实现机制，拥有丰富且实用的shell 命令行，并具备简单的shell脚本能力。
-
-我们的目标是设计并完善命令行机制，增强shell命令行编程能力，目的是帮助学生深入理解操作系统的人机交互，掌握操作系统交互和编程语言的设计和实现。
+我们的目标是设计并完善命令行机制，增强 shell 命令行编程能力，目的是帮助学生深入理解操作系统的人机交互，掌握操作系统交互和编程语言的设计和实现。
 
 - 实现命令行自动补全、联想帮助、管道、过滤和分屏显示机制
 
@@ -42,7 +40,7 @@
 
 陈洪邦
 
-* github https://github.com/acoinfo/sylixos_oscomp_2021/tree/master/shell_enhancement
+* github [edward518](https://github.com/edward518)
 
 * email chenhongbang@acoinfo.com
 
@@ -63,9 +61,7 @@
 
 ### 文档
 
-[SylixOS shell增强开发指导文档](https://github.com/acoinfo/sylixos_oscomp_2021/tree/master/shell_enhancement)
-
-[SylixOS shell用户手册](https://github.com/acoinfo/sylixos_oscomp_2021/tree/master/shell_enhancement)
+[SylixOS shell 增强开发指导文档](https://github.com/acoinfo/sylixos_oscomp_2021/tree/master/shell_enhancement)
 
 ### License
 
@@ -77,7 +73,7 @@
 
 ### 注意：下面的内容是建议内容，不要求必须全部完成。选择本项目的同学也可与导师联系，提出自己的新想法，如导师认可，可加入预期目标
 
-在现有SylixOS Shell命令行实现的基础上，进一步完成以下目标：
+在现有 SylixOS Shell 命令行实现的基础上，进一步完成以下目标：
 
 ### 第一题：实现命令行自动补全、联想帮助、管道、过滤和分屏显示机制
 
@@ -90,8 +86,3 @@
 * 支持分支语句，if/elif/else
 * 支持循环语句，while/for，支持 break/continue
 * 支持 find、grep、awk、sed 实用命令
-
-
-
-
-
